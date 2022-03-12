@@ -51,7 +51,6 @@ class MedicalEmergency extends StatelessWidget {
                         color: Colors.white,
                         size: 150,
                       ),
-
                     ],
                   ),
                   decoration: BoxDecoration(
@@ -76,14 +75,14 @@ class MedicalEmergency extends StatelessWidget {
               padding: const EdgeInsets.all(20.0),
               child: Container(
                 decoration: BoxDecoration(
-                  // boxShadow: [
-                  //   BoxShadow(
-                  //     color: Colors.grey,
-                  //     blurRadius: 5.0,
-                  //     offset: Offset(0.0, 0.75),
-                  //   ),
-                  // ],
-                ),
+                    // boxShadow: [
+                    //   BoxShadow(
+                    //     color: Colors.grey,
+                    //     blurRadius: 5.0,
+                    //     offset: Offset(0.0, 0.75),
+                    //   ),
+                    // ],
+                    ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -165,7 +164,8 @@ class MedicalEmergency extends StatelessWidget {
                     child: Column(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(left: 15.0, right: 15.0),
+                          padding:
+                              const EdgeInsets.only(left: 15.0, right: 15.0),
                           child: Row(
                             children: [
                               Icon(
@@ -184,23 +184,26 @@ class MedicalEmergency extends StatelessWidget {
                           height: 10.0,
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(left:15.0, right: 15.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "Dad, Bruce Jenner, Alexa Jones, +3more",
-                                style: TextStyle(
-                                    fontSize: 15.0,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              Icon(
-                                Icons.arrow_forward_ios,
-                                color: Colors.black,
-                              ),
-                            ],
+                          padding:
+                              const EdgeInsets.only(left: 15.0, right: 15.0),
+                          child: Container(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Dad, Bruce Jenner, Alexa Jones, +3more",
+                                  style: TextStyle(
+                                      fontSize: 15.0,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Icon(
+                                  Icons.arrow_forward_ios,
+                                  color: Colors.black,
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
+                        )
                       ],
                     ),
                   ),

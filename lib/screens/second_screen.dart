@@ -162,11 +162,10 @@ class MedicalEmergency extends StatelessWidget {
                     height: 30.0,
                   ),
                   Container(
-                    width: MediaQuery.of(context).size.width,
                     child: Column(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(left: 15.0),
+                          padding: const EdgeInsets.only(left: 15.0, right: 15.0),
                           child: Row(
                             children: [
                               Icon(
@@ -184,26 +183,20 @@ class MedicalEmergency extends StatelessWidget {
                         SizedBox(
                           height: 10.0,
                         ),
-                        SingleChildScrollView(
-                          scrollDirection: Axis.horizontal,
+                        Padding(
+                          padding: const EdgeInsets.only(left:15.0, right: 15.0),
                           child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Padding(
-                                padding: const EdgeInsets.only(left: 3.0),
-                                child: Row(
-                                  children: [
-                                    Text(
-                                      "Dad, Bruce Jenner, Alexa Jones, +3more",
-                                      style: TextStyle(
-                                          fontSize: 15.0,
-                                          fontWeight: FontWeight.bold),
-                                    ),
-                                    Icon(
-                                      Icons.arrow_forward_ios,
-                                      color: Colors.black,
-                                    )
-                                  ],
-                                ),
+                              Text(
+                                "Dad, Bruce Jenner, Alexa Jones, +3more",
+                                style: TextStyle(
+                                    fontSize: 15.0,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              Icon(
+                                Icons.arrow_forward_ios,
+                                color: Colors.black,
                               ),
                             ],
                           ),

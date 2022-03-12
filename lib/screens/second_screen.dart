@@ -85,6 +85,7 @@ class MedicalEmergency extends StatelessWidget {
                   // ],
                 ),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
                       child: Text(
@@ -92,14 +93,8 @@ class MedicalEmergency extends StatelessWidget {
                         style: TextStyle(fontSize: 15.0),
                       ),
                     ),
-                    SizedBox(
-                      width: 40.0,
-                    ),
-                    Container(
-                      alignment: Alignment.centerRight,
-                      child: Icon(
-                        Icons.call,
-                      ),
+                    Icon(
+                      Icons.call,
                     ),
                   ],
                 ),
@@ -194,7 +189,7 @@ class MedicalEmergency extends StatelessWidget {
                           child: Row(
                             children: [
                               Padding(
-                                padding: const EdgeInsets.only(left: 15.0),
+                                padding: const EdgeInsets.only(left: 3.0),
                                 child: Row(
                                   children: [
                                     Text(

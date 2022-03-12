@@ -3,7 +3,7 @@ import 'alert.dart';
 import 'home_screen.dart';
 import 'location.dart';
 import 'profile.dart';
-import 'const.dart';
+import '../const.dart';
 class BottomNav extends StatefulWidget {
   final int index;
 

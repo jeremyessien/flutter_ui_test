@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'second_screen.dart'
-;import 'const.dart';
+;import '../const.dart';
 
 class HomePage extends StatefulWidget {
   @override

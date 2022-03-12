@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'const.dart';
+import '../const.dart';
 
 class MedicalEmergency extends StatelessWidget {
   @override
@@ -89,7 +89,7 @@ class MedicalEmergency extends StatelessWidget {
                     Container(
                       child: Text(
                         "Hold tight, dispatch on your way",
-                        style: TextStyle(fontSize: 18.0),
+                        style: TextStyle(fontSize: 15.0),
                       ),
                     ),
                     SizedBox(
@@ -138,7 +138,7 @@ class MedicalEmergency extends StatelessWidget {
                         ),
                         Text(
                           "Detected Location",
-                          style: TextStyle(color: Colors.grey, fontSize: 18.0),
+                          style: TextStyle(color: Colors.grey, fontSize: 13.0),
                         ),
                       ],
                     ),
@@ -153,7 +153,7 @@ class MedicalEmergency extends StatelessWidget {
                           Text(
                             "Home(Austin Texas)",
                             style: TextStyle(
-                                fontSize: 18.0, fontWeight: FontWeight.bold),
+                                fontSize: 15.0, fontWeight: FontWeight.bold),
                           ),
                           Icon(
                             Icons.arrow_forward_ios,
@@ -181,7 +181,7 @@ class MedicalEmergency extends StatelessWidget {
                               Text(
                                 "Persons to contact",
                                 style: TextStyle(
-                                    color: Colors.grey, fontSize: 18.0),
+                                    color: Colors.grey, fontSize: 13.0),
                               ),
                             ],
                           ),
@@ -200,7 +200,7 @@ class MedicalEmergency extends StatelessWidget {
                                     Text(
                                       "Dad, Bruce Jenner, Alexa Jones, +3more",
                                       style: TextStyle(
-                                          fontSize: 18.0,
+                                          fontSize: 15.0,
                                           fontWeight: FontWeight.bold),
                                     ),
                                     Icon(
